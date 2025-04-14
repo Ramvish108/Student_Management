@@ -47,12 +47,15 @@ A complete school management solution handling student admissions and transfer c
    git clone https://github.com/yourusername/school-management-system.git
    cd school-management-system
 
-#Build Project
 
-mvn clean install  # For Maven projects
+## Build Project
+```bash
+mvn clean install # For Maven projects
+```
 
-##Database Setup
+## Database Setup
 1. Create Database and Tables:
+```sql
 CREATE DATABASE project;
 USE project;
 
@@ -90,43 +93,19 @@ CREATE TABLE TC_Granted (
     MOccu VARCHAR(50),
     Grant_Date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 
-##Create Image Directories:
+2. Create Image Directories:
+```bash
 mkdir -p src/main/resources/images/{students,fathers,mothers}
+```
 
-Login
+## Login
+- **Default Credentials**: 123/123
+- Password masked input
 
-Default Credentials: 123/123
-Password masked input
-
-Admission Process
-
+## Admission Process
 1. Complete all mandatory fields (marked with *)
 2. Upload images (Student + Parents)
 3. Verify data before submission
 4. System generates scholar number automatically
-
-
-Transfer Certificate
-
-1. Enter scholar number
-2. Verify student details
-3. Grant TC to move record to archive
-4. Generates timestamped TC record
-
-
-##classDiagram
-    class studd {
-        -JFrame components
-        -Database connection
-        +LoginPage()
-        +admission()
-        +transfer()
-    }
-    studd --> Database
-    class Database {
-        +Connection con
-        +connect()
-        +queryStudent()
-        +grantTC()
-    }
