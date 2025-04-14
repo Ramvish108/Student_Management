@@ -32,7 +32,7 @@ A complete school management solution handling student admissions and transfer c
 ## Screenshots
 | Login | Main Menu | Admission | TC Management |
 |-------|-----------|-----------|---------------|
-| ![Login](C:\java\Student_Management.png) | ![Menu](screenshots/menu.png) | ![Admission](screenshots/admission.png) | ![TC](screenshots/tc.png) |
+| ![Login](LoginPage.png) | ![Menu](Menu.png) | ![Admission](Admission.png) | ![TC](TC.png) |
 
 ## Installation
 
