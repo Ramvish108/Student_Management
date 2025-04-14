@@ -32,8 +32,8 @@ A complete school management solution handling student admissions and transfer c
 ## Screenshots
 | Login | Main Menu | Admission | TC Management |
 |-------|-----------|-----------|---------------|
-| ![Login](LoginPage.png) | ![Menu](Menu.png) | ![Admission](Admission.png) | ![TC](TC.png) |
-
+| ![Login](LoginPage.png) | ![Menu](Menu.png) | ![Admission](Admission.png) | ![TC](TC.png) |![Uploading_images](Images.png) |![Admission_Database](Admission_database.png) |
+![TC_Granted](TC_granted.png) |![TC_granted_database](TC_granted_Database.png) |
 ## Installation
 
 ### Prerequisites
