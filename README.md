@@ -13,11 +13,8 @@ A complete school management solution handling student admissions and transfer c
 - [Database Setup](#database-setup)
 - [Configuration](#configuration)
 - [Usage](#usage)
-- [Troubleshooting](#troubleshooting)
 - [Class Diagram](#class-diagram)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Features
@@ -46,6 +43,22 @@ A complete school management solution handling student admissions and transfer c
    ```bash
    git clone https://github.com/yourusername/school-management-system.git
    cd school-management-system
+
+## Dependencies
+
+Add these to your `pom.xml`:
+
+```xml
+<dependencies>
+    <!-- MySQL Connector -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.33</version>
+    </dependency>
+</dependencies>
+```
+</dependencies>
 
 
 ## Build Project
@@ -99,7 +112,15 @@ CREATE TABLE TC_Granted (
 ```bash
 mkdir -p src/main/resources/images/{students,fathers,mothers}
 ```
+## Contact
 
+[Your Name] - [your.email@example.com]  
+
+📧 Report Issues:  
+[https://github.com/yourusername/student-management/issues](https://github.com/yourusername/student-management/issues)  
+
+🔗 Project Repository:  
+[https://github.com/yourusername/student-management](https://github.com/yourusername/student-management)
 ## Login
 - **Default Credentials**: 123/123
 - Password masked input
@@ -149,20 +170,7 @@ classDiagram
     }
 
 
-##Dependencies
-<dependencies>
-    <!-- MySQL Connector -->
-    <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.28</version>
-    </dependency>
-    
-    <!-- Java Swing (included in JDK) -->
-    <dependency>
-        <groupId>java.desktop</groupId>
-        <artifactId>java.desktop</artifactId>
-        <version>17</version>
-        <scope>system</scope>
-    </dependency>
-</dependencies>
+
+
+
+
