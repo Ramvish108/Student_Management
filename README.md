@@ -115,10 +115,10 @@ mkdir -p src/main/resources/images/{students,fathers,mothers}
 [Ram Vishwakarma] - [rv7029919@gmail.com]  
 
 📧 Report Issues:  
-[https://github.com/yourusername/student-management/issues](https://github.com/Ramvish108)  
+[https://github.com/Ramvish108/student-management/issues](https://github.com/Ramvish108)  
 
 🔗 Project Repository:  
-[https://github.com/yourusername/student-management](https://github.com/Ramvish108/student-management)
+[https://github.com/Ramvish108/student-management](https://github.com/Ramvish108/student-management)
 
 ## Login
 - **Default Credentials**: 123/123
