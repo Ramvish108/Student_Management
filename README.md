@@ -51,8 +51,7 @@ A complete school management solution handling student admissions and transfer c
 
 mvn clean install  # For Maven projects
 
-
-#Database Setup
+##Database Setup
 1. Create Database and Tables:
 CREATE DATABASE project;
 USE project;
