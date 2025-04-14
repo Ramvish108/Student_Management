@@ -12,7 +12,6 @@ A complete school management solution handling student admissions and transfer c
 - [Installation](#installation)
 - [Database Setup](#database-setup)
 - [Configuration](#configuration)
-- [Usage](#usage)
 - [Class Diagram](#class-diagram)
 - [Dependencies](#dependencies)
 - [Contact](#contact)
@@ -114,13 +113,14 @@ mkdir -p src/main/resources/images/{students,fathers,mothers}
 ```
 ## Contact
 
-[Your Name] - [your.email@example.com]  
+[Ram Vishwakarma] - [rv7029919@gmail.com]  
 
 📧 Report Issues:  
 [https://github.com/yourusername/student-management/issues](https://github.com/yourusername/student-management/issues)  
 
 🔗 Project Repository:  
 [https://github.com/yourusername/student-management](https://github.com/yourusername/student-management)
+
 ## Login
 - **Default Credentials**: 123/123
 - Password masked input
