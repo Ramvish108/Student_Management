@@ -118,7 +118,7 @@ mkdir -p src/main/resources/images/{students,fathers,mothers}
 [https://github.com/Ramvish108/student-management/issues](https://github.com/Ramvish108)  
 
 🔗 Project Repository:  
-[https://github.com/Ramvish108/student-management](https://github.com/Ramvish108/student-management)
+[https://github.com/Ramvish108/student-management](https://github.com/Ramvish108/Student_Management)
 
 ## Login
 - **Default Credentials**: 123/123
