@@ -109,3 +109,60 @@ mkdir -p src/main/resources/images/{students,fathers,mothers}
 2. Upload images (Student + Parents)
 3. Verify data before submission
 4. System generates scholar number automatically
+## Class Diagram
+
+```mermaid
+classDiagram
+    class studd {
+        -JFrame f1, f, f2, f3
+        -JButton b, b1, b0, bs, b00, loginButton
+        -JTextArea a1, a3, a4, a5, a6, a11, a12, a13, a14, a2
+        -Connection con
+        -PreparedStatement pst
+        -ResultSet rs
+        +studd()
+        +LoginPage()
+        +admission()
+        +transfer()
+        +connection()
+        +Randomnum()
+        +selectAndDisplayImage()
+    }
+    
+    studd --> Database
+    studd --> SwingComponents
+    
+    class Database {
+        +Connection con
+        +connect()
+        +insertStudent()
+        +grantTC()
+        +searchStudent()
+    }
+    
+    class SwingComponents {
+        +JFrame
+        +JButton
+        +JTextArea
+        +JLabel
+        +JTable
+    }
+
+
+##Dependencies
+<dependencies>
+    <!-- MySQL Connector -->
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>8.0.28</version>
+    </dependency>
+    
+    <!-- Java Swing (included in JDK) -->
+    <dependency>
+        <groupId>java.desktop</groupId>
+        <artifactId>java.desktop</artifactId>
+        <version>17</version>
+        <scope>system</scope>
+    </dependency>
+</dependencies>
